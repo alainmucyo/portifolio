@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1iMRR7Zn0SUEV9UdyHsIaZHaSRH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-example" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="478" y="206" width="404" height="324" key="#Go_Modules" timestamp="1601716794396">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="478" y="206" width="404" height="324" key="#Go_Modules/0.0.1366.737@0.0.1366.737" timestamp="1601716794396" />
+    <state x="466" y="127" width="428" height="481" key="FileChooserDialogImpl" timestamp="1602158599233">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="466" y="127" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.737@0.0.1366.737" timestamp="1602158599233" />
+    <state x="172" y="4" key="SettingsEditor" timestamp="1601733477987">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1601733477987" />
+    <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601787562957">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.737@0.0.1366.737" timestamp="1601787562957" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1601719593281">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1601719593281" />
+  </component>
+</project>
