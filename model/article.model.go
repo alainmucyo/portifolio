@@ -12,7 +12,9 @@ type Article struct {
 	Image        string    `json:"image"`
 	Content      string    `json:"content" validate:"required,min=3"`
 	Likes        int64     `json:"likes" gorm:"default:0"`
+	Views        int64     `json:"views" gorm:"default:0"`
 	CommentCount int32     `json:"comment_count" gorm:"default:0"`
+	Comments     []Comment `json:"comments" gorm:"constraint:OnDelete:CASCADE;"`
 	CreatedAt    time.Time `gorm:"default:CURRENT_TIMESTAMP" json:"created_at"`
 	UpdatedAt    time.Time `gorm:"default:CURRENT_TIMESTAMP" json:"updated_at"`
 }
@@ -44,12 +46,32 @@ func (article Article) Create() (Article, error) {
 
 func (Article) FindById(articleId int) (Article, error) {
 	var article Article
-	if config.Database.Where("id = ?", articleId).Take(&article).Error != nil {
+	if config.Database.Where("id = ?", articleId).Preload("Comments").Take(&article).Error != nil {
 		return Article{}, errors.New("Article not found")
 	}
 	return article, nil
 }
-
+func (article Article) AddView() (Article, error) {
+	article.Views++
+	if config.Database.Save(&article).Error != nil {
+		return Article{}, errors.New("Can't view")
+	}
+	return article, nil
+}
+func (article Article) AddComment() (Article, error) {
+	article.CommentCount++
+	if config.Database.Save(&article).Error != nil {
+		return Article{}, errors.New("Can't comment")
+	}
+	return article, nil
+}
+func (article Article) AddLike() (Article, error) {
+	article.Likes++
+	if config.Database.Save(&article).Error != nil {
+		return Article{}, errors.New("Can't like")
+	}
+	return article, nil
+}
 func (article Article) Update(articleId uint64) (Article, error) {
 	var updatedArticle Article
 	if config.Database.Model(&updatedArticle).Where("id = ?", articleId).Updates(article).Error != nil {

@@ -21,6 +21,9 @@ func Register() *mux.Router {
 	r.HandleFunc("/api/article/{id}", articles.Show).Methods("GET")
 	r.HandleFunc("/api/article", articles.Store).Methods("POST")
 	r.HandleFunc("/api/article/{id}", articles.Delete).Methods("DELETE")
+	r.HandleFunc("/api/article/like/{article}", articles.Like).Methods("PUT")
 	r.HandleFunc("/api/article/{id}", articles.Update).Methods("PUT")
+
+	r.HandleFunc("/api/comment/{article}", articles.Comment).Methods("POST")
 	return r
 }

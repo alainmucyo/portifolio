@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/articles/articles.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/article.model.go" afterDir="false" />
+    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Added article CRUD with image upload">
+      <change afterPath="$PROJECT_DIR$/model/comment.model.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/queries.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/queries/queries.controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/articles/articles.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/articles/articles.controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/migration.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Query.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/query.model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/article.model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/article.model.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validations/query.validator.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +52,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -95,6 +93,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added article CRUD with image upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added article CRUD with image upload" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -107,18 +109,22 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="466" y="127" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.737@0.0.1366.737" timestamp="1602158599233" />
-    <state x="172" y="4" key="SettingsEditor" timestamp="1601733477987">
+    <state x="172" y="4" key="SettingsEditor" timestamp="1602330979030">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1601733477987" />
+    <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1602330979030" />
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602321028012">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.737@0.0.1366.737" timestamp="1602321028012" />
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601787562957">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.737@0.0.1366.737" timestamp="1601787562957" />
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1602319029081">
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1602329413001">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1602319029081" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1602329413001" />
     <state x="408" y="279" width="544" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602317622341">
       <screen x="0" y="0" width="1366" height="737" />
     </state>

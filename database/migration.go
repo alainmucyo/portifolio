@@ -6,6 +6,5 @@ import (
 )
 
 func Migrate() {
-	_ = config.Database.AutoMigrate(model.Query{})
-	_ = config.Database.AutoMigrate(model.Article{})
+	_ = config.Database.AutoMigrate(model.Query{}, model.Article{}, model.Comment{})
 }
