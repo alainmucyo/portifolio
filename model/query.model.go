@@ -26,7 +26,7 @@ func (q *Query) Prepare() {
 	q.UpdatedAt = time.Now()
 }
 
-func AllQueries() ([]Query, error) {
+func (q Query) FindAll() ([]Query, error) {
 
 	qus := make([]Query, 0)
 	if config.Database.Find(&qus).Error != nil {
@@ -36,7 +36,7 @@ func AllQueries() ([]Query, error) {
 
 }
 
-func SaveBook(qury Query) (Query, error) {
+func (qury Query) Save() (Query, error) {
 	ctx := config.Database.Begin()
 
 	if ctx.Error != nil {

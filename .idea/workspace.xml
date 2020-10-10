@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="" />
+    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/articles/articles.controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/article.model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/queries.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/queries/queries.controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/migration.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Query.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/query.model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validations/query.validator.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +45,11 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iMRR7Zn0SUEV9UdyHsIaZHaSRH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,12 +63,37 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$/model/article" />
+      <recent name="$PROJECT_DIR$/model/query" />
+      <recent name="$PROJECT_DIR$/controller/articles" />
+      <recent name="$PROJECT_DIR$/controller/queries" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller" />
+      <recent name="$PROJECT_DIR$/services" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -57,9 +115,13 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.737@0.0.1366.737" timestamp="1601787562957" />
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1601719593281">
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1602319029081">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1601719593281" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1602319029081" />
+    <state x="408" y="279" width="544" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602317622341">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="408" y="279" width="544" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.737@0.0.1366.737" timestamp="1602317622341" />
   </component>
 </project>

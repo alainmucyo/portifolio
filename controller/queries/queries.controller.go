@@ -1,4 +1,4 @@
-package controller
+package queries
 
 import (
 	"encoding/json"
@@ -13,7 +13,7 @@ var validate *validator.Validate
 
 func GetQuery(writer http.ResponseWriter, request *http.Request) {
 	writer.Header().Set("Content-Type", "application/json")
-	queries, err := model.AllQueries()
+	queries, err := model.Query{}.FindAll()
 	if err != nil {
 		fmt.Println("Error: ", err)
 	}
@@ -35,7 +35,7 @@ func CreateQuery(writer http.ResponseWriter, request *http.Request) {
 
 		return
 	}
-	createdQuery, err := model.SaveBook(query)
+	createdQuery, err := query.Save()
 	if err != nil {
 		writer.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(writer).Encode("Server error")
