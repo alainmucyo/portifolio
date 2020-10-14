@@ -2,11 +2,11 @@ package router
 
 import (
 	"github.com/alainmucyo/my_brand/config"
-	"github.com/alainmucyo/my_brand/controller/articles"
-	"github.com/alainmucyo/my_brand/controller/auth"
-	"github.com/alainmucyo/my_brand/controller/queries"
-	"github.com/alainmucyo/my_brand/middlewares"
-	"github.com/alainmucyo/my_brand/utils"
+	"github.com/alainmucyo/my_brand/src/controller/articles"
+	"github.com/alainmucyo/my_brand/src/controller/auth"
+	"github.com/alainmucyo/my_brand/src/controller/queries"
+	"github.com/alainmucyo/my_brand/src/middlewares"
+	"github.com/alainmucyo/my_brand/src/utils"
 	"github.com/gorilla/mux"
 	"net/http"
 )
@@ -28,8 +28,10 @@ func Register() *mux.Router {
 
 	r.HandleFunc("/api/comment/{article}", articles.Comment).Methods("POST")
 
-	r.HandleFunc("/api/auth/mock", middlewares.IsAuth(auth.MockUser))
+	r.HandleFunc("/api/auth/mock", auth.MockUser)
 	r.HandleFunc("/api/auth/login", auth.Login).Methods("POST")
 	r.HandleFunc("/api/auth/details", middlewares.IsAuth(auth.UserDetails)).Methods("GET")
+	r.HandleFunc("/api/auth/profile", middlewares.IsAuth(auth.Profile)).Methods("POST")
+
 	return r
 }

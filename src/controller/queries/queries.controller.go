@@ -3,8 +3,8 @@ package queries
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/alainmucyo/my_brand/model"
-	"github.com/alainmucyo/my_brand/resources"
+	"github.com/alainmucyo/my_brand/src/model"
+	"github.com/alainmucyo/my_brand/src/resources"
 	"github.com/go-playground/validator/v10"
 	"net/http"
 )

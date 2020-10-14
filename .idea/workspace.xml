@@ -20,15 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Added comments and likes to articles">
-      <change afterPath="$PROJECT_DIR$/controller/auth/auth.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/articles/articles.controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/auth/auth.controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/queries/queries.controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/article.model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/comment.model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/query.model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/user.model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/response.resource.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/image-upload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data/data.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/query/queries.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/migration.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/articles/articles.controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/auth/auth.controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/queries/queries.controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migration.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/article.model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/comment.model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/query.model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/user.model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/response.resource.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/image-upload.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/token.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,18 +86,19 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/model" />
-      <recent name="$PROJECT_DIR$/model/article" />
-      <recent name="$PROJECT_DIR$/model/query" />
-      <recent name="$PROJECT_DIR$/controller/articles" />
-      <recent name="$PROJECT_DIR$/controller/queries" />
+      <recent name="$PROJECT_DIR$/tests/auth" />
+      <recent name="$PROJECT_DIR$/tests/query" />
+      <recent name="$PROJECT_DIR$/tests/article" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/services" />
     </key>
@@ -109,14 +132,22 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="478" y="206" width="404" height="324" key="#Go_Modules/0.0.1366.737@0.0.1366.737" timestamp="1601716794396" />
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602647789382">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.737@0.0.1366.737" timestamp="1602647789382" />
+    <state x="381" y="167" width="598" height="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602479649369">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="381" y="167" width="598" height="401" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.737@0.0.1366.737" timestamp="1602479649369" />
     <state x="466" y="127" width="428" height="481" key="FileChooserDialogImpl" timestamp="1602158599233">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="466" y="127" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.737@0.0.1366.737" timestamp="1602158599233" />
-    <state x="172" y="4" key="SettingsEditor" timestamp="1602330979030">
+    <state x="172" y="4" key="SettingsEditor" timestamp="1602401049274">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1602330979030" />
+    <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1602401049274" />
     <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602339779774">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
@@ -125,10 +156,14 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.737@0.0.1366.737" timestamp="1601787562957" />
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1602356895365">
+    <state x="381" y="63" width="604" height="612" key="find.popup" timestamp="1602395933218">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1602356895365" />
+    <state x="381" y="63" width="604" height="612" key="find.popup/0.0.1366.737@0.0.1366.737" timestamp="1602395933218" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1602649865887">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1602649865887" />
     <state x="408" y="279" width="544" height="177" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602317622341">
       <screen x="0" y="0" width="1366" height="737" />
     </state>

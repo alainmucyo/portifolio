@@ -8,9 +8,10 @@ import (
 )
 
 type User struct {
-	ID        uint64    `gorm:"primary_key,auto_increment" json:"id"`
+	ID        uint64    `gorm:"primary_key,auto_increment" json:"id" validate:"required"`
 	Name      string    `json:"name" gorm:"size:255"`
-	Email     string    `json:"email" gorm:"unique,size:255"`
+	Email     string    `json:"email" gorm:"unique,size:255" validate:"required,email"`
+	Image     string    `json:"image" gorm:"size:255"`
 	Password  string    `json:"password" gorm:"size:255"`
 	CreatedAt time.Time `gorm:"default:CURRENT_TIMESTAMP" json:"created_at"`
 	UpdatedAt time.Time `gorm:"default:CURRENT_TIMESTAMP" json:"updated_at"`
@@ -34,7 +35,7 @@ func (user *User) Prepare() {
 	user.Password = string(hashedPassword)
 }
 
-func (user User) Create() (User, error) {
+func (user User) Save() (User, error) {
 	if config.Database.Save(&user).Error != nil {
 		return User{}, errors.New("Can't create")
 	}

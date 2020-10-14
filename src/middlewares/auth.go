@@ -2,7 +2,7 @@ package middlewares
 
 import (
 	"encoding/json"
-	"github.com/alainmucyo/my_brand/utils"
+	"github.com/alainmucyo/my_brand/src/utils"
 	"net/http"
 )
 

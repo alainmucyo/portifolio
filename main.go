@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/alainmucyo/my_brand/config"
-	"github.com/alainmucyo/my_brand/database"
-	"github.com/alainmucyo/my_brand/router"
+	"github.com/alainmucyo/my_brand/src/database"
+	"github.com/alainmucyo/my_brand/src/router"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"log"

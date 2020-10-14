@@ -3,9 +3,9 @@ package articles
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/alainmucyo/my_brand/model"
-	"github.com/alainmucyo/my_brand/resources"
-	"github.com/alainmucyo/my_brand/utils"
+	"github.com/alainmucyo/my_brand/src/model"
+	"github.com/alainmucyo/my_brand/src/resources"
+	"github.com/alainmucyo/my_brand/src/utils"
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
 	"net/http"
@@ -82,12 +82,10 @@ func Show(writer http.ResponseWriter, request *http.Request) {
 }
 func Update(writer http.ResponseWriter, request *http.Request) {
 	validate = validator.New()
-	writer.Header().Set("Content-Type", "application/json")
 	writer.Header().Set("Content-Type", "multipart/form-data")
 	id := mux.Vars(request)["id"]
 	articleId, _ := strconv.Atoi(id)
 	var article model.Article
-	//json.NewDecoder(request.Body).Decode(&article)
 	article.Title = request.FormValue("title")
 	article.Content = request.FormValue("content")
 	file, _, err := request.FormFile("image")

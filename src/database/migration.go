@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/alainmucyo/my_brand/config"
-	"github.com/alainmucyo/my_brand/model"
+	"github.com/alainmucyo/my_brand/src/model"
 )
 
 func Migrate() {
