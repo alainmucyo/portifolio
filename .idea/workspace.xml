@@ -19,38 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Added comments and likes to articles">
-      <change afterPath="$PROJECT_DIR$/src/controller/articles/articles.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/auth/auth.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/queries/queries.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/article.model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/comment.model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/query.model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/user.model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/response.resource.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/image-upload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/data.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/query/queries.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Add unit testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/articles/articles.controller.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/auth/auth.controller.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/queries/queries.controller.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migration.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/auth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/article.model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/comment.model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/query.model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/response.resource.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/image-upload.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/articles/articles.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/articles/articles.controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added article CRUD with image upload" />
     <MESSAGE value="Added comments and likes to articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments and likes to articles" />
+    <MESSAGE value="Add unit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit testing" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -148,10 +120,10 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1602401049274" />
-    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602339779774">
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602653150935">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.737@0.0.1366.737" timestamp="1602339779774" />
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.737@0.0.1366.737" timestamp="1602653150935" />
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601787562957">
       <screen x="0" y="0" width="1366" height="737" />
     </state>

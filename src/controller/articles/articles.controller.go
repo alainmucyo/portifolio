@@ -62,10 +62,14 @@ func Store(writer http.ResponseWriter, request *http.Request) {
 	json.NewEncoder(writer).Encode(response)
 }
 
-func Show(writer http.ResponseWriter, request *http.Request) {
+func singleArticle(request *http.Request) (model.Article, error) {
 	id := mux.Vars(request)["id"]
 	articleId, _ := strconv.Atoi(id)
-	article, err := model.Article{}.FindById(articleId)
+	return model.Article{}.FindById(articleId)
+}
+
+func Show(writer http.ResponseWriter, request *http.Request) {
+	article, err := singleArticle(request)
 	if err != nil {
 		writer.WriteHeader(http.StatusNotFound)
 		json.NewEncoder(writer).Encode("Article not found!")
@@ -156,9 +160,7 @@ func Comment(writer http.ResponseWriter, request *http.Request) {
 }
 
 func Like(writer http.ResponseWriter, request *http.Request) {
-	id := mux.Vars(request)["article"]
-	articleId, _ := strconv.Atoi(id)
-	article, err := model.Article{}.FindById(articleId)
+	article, err := singleArticle(request)
 	if err != nil {
 		writer.WriteHeader(http.StatusNotFound)
 		json.NewEncoder(writer).Encode("Article not found!")
