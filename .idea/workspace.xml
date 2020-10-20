@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Code refactoring">
+    <list default="true" id="3a4a05ae-6faf-43c8-945c-1507bab0ae74" name="Default Changelist" comment="Add README.md file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,8 @@
     <MESSAGE value="Added comments and likes to articles" />
     <MESSAGE value="Add unit testing" />
     <MESSAGE value="Code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring" />
+    <MESSAGE value="Add README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md file" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -120,10 +121,10 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="172" y="4" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1602401049274" />
-    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602653760364">
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2" timestamp="1602655983310">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.737@0.0.1366.737" timestamp="1602653760364" />
+    <state x="278" y="101" width="804" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.737@0.0.1366.737" timestamp="1602655983310" />
     <state x="305" y="30" width="750" height="676" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601787562957">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
